@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script src="./../custom-notification.js" type="module"></script>
+    <custom-notification text="service worker updated!"></custom-notification>
+    <script>
+      const not = document.querySelector('custom-notification')
+      not.action= () => location.reload();
+    </script>
+  </body>
+</html>
