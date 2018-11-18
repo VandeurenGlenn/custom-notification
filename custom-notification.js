@@ -1,5 +1,5 @@
-import define from './../node_modules/backed/src/utils/define.js';
-import RenderMixin from './../node_modules/custom-renderer-mixin/src/render-mixin.js';
+import define from '../../backed/src/utils/define.js';
+import RenderMixin from '../../custom-renderer-mixin/src/render-mixin.js';
 
 export default define(class CustomNotification extends RenderMixin(HTMLElement) {
 
